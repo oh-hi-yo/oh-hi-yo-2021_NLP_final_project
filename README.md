@@ -19,14 +19,14 @@ The dataset is split into the following three files:
 ## Solution
 
 1. text preprocessing
-> take away emoji and https
-> remove punctuation
-> split validation set from training set
-> tokenize and using texts_to_sequences to transfer text to sequence
-> padding sequence
+* take away emoji and https
+* remove punctuation
+* split validation set from training set
+* tokenize and using texts_to_sequences to transfer text to sequence
+* padding sequence
 
 2. training model 
-> RNN, LSTM
+* RNN, LSTM
 
 3. predict the label for eval.json
 
